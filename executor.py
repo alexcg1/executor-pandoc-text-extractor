@@ -14,7 +14,8 @@ class PandocTextExtractor(Executor):
         try:
             doc.text = subprocess.getoutput(command)
         except:
-            doc.text = "PandocTextExtractor failed to extract text"
+            doc.text = ""
+            print(f"Failed to extract text from {doc.uri}")
 
         return doc
 
