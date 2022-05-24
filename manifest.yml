@@ -1,0 +1,5 @@
+manifest_version: 1
+name: PanDocTextExtractor
+description: PanDocExtractor uses pandoc to extract text from different filetypes and return that text as a Document
+url: 
+keywords: ['text', ' pandoc', ' word', ' markdown']
