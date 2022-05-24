@@ -1,5 +1,5 @@
 manifest_version: 1
-name: PanDocTextExtractor
+name: PandocTextExtractor
 description: PanDocExtractor uses pandoc to extract text from different filetypes and return that text as a Document
-url: 
+url: https://github.com/alexcg1/executor-pandoc-text-extractor
 keywords: ['text', ' pandoc', ' word', ' markdown']

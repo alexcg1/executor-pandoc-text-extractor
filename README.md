@@ -1,6 +1,6 @@
 # PanDocTextExtractor
 
-PanDocExtractor uses pandoc to extract text from different filetypes and return that text as a Document
+PandocTextExtractor uses [pandoc](https://pandoc.org) to extract text from different filetypes and store it in `doc.text`
 
 ## Usage
 
@@ -9,7 +9,7 @@ PanDocExtractor uses pandoc to extract text from different filetypes and return 
 ```python
 from jina import Flow
 	
-f = Flow().add(uses='jinahub+docker://PanDocTextExtractor')
+f = Flow().add(uses='jinahub+docker://PandocTextExtractor')
 ```
 
 #### via source code
@@ -17,7 +17,7 @@ f = Flow().add(uses='jinahub+docker://PanDocTextExtractor')
 ```python
 from jina import Flow
 	
-f = Flow().add(uses='jinahub://PanDocTextExtractor')
+f = Flow().add(uses='jinahub://PandocTextExtractor')
 ```
 
 - To override `__init__` args & kwargs, use `.add(..., uses_with: {'key': 'value'})`

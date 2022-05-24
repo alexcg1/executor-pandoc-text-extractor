@@ -1,4 +1,4 @@
-jtype: PanDocTextExtractor
+jtype: PandocTextExtractor
 metas:
   py_modules:
     - executor.py
