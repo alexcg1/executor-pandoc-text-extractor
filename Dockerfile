@@ -1,6 +1,6 @@
 FROM jinaai/jina:latest
 
-apt update && apt install pandoc
+RUN apt-get update && apt-get install pandoc
 
 # install requirements before copying the workspace
 COPY requirements.txt /requirements.txt
